@@ -1,0 +1,19 @@
+.head{
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+    // background: pink;
+}
+.content{
+    width: 100%
+}
+.head{
+    display: flex;
+}
+.h_L{
+    flex: 1;
+}
+.h_R{
+    flex: 1;
+    text-align: right;
+}

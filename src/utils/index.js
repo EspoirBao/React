@@ -1,4 +1,5 @@
-
+import url from "url";
+import {createHashHistory} from "history"; 
 
 export {msg} from "./msg"
 
@@ -29,7 +30,7 @@ export const commonJS = {
 export {axios,baseURL} from "./axios"
 
 
-import url from "url";
+
 export function GetQuery(search){
 
     return url.parse(search,true).query;
@@ -38,3 +39,8 @@ export function GetQuery(search){
     // }
 
 }
+
+
+
+// history = this.props.history 
+export const history = new createHashHistory();

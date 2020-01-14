@@ -3,9 +3,21 @@
 @import "animate.css";
 @import "common";
 @import "./fonts/iconfont.css";
+@import "antd-mobile.css";
+
 
 $base_ft:20px;  /*no*/
 $base_color:red;
+
+html,body,#app,.main{
+    width:100vw;
+    height:100vh;
+}
+
+* {
+    touch-action: pan-y;
+}
+
 
 // body{
 //     background:yellowgreen;
